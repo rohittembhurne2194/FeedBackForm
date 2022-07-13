@@ -223,7 +223,7 @@ header.page-header {
  <asp:RadioButton ID="rdbtn5" GroupName="radio2" runat="server" /><label class="radio_ques_yes">Yes</label>
     <asp:RadioButton ID="rdbtn6" GroupName="radio2" runat="server" /><label class="radio_ques_no">No</label>
 </div>
-<div class="form-group box-show">
+<div class="form-group box-show" style="height:100px;">
 <p style="color: black" id="que_four">4.Please provide your valuable rating for the toilet:</p>
 
    <%-- <asp:DropDownList ID="ddlstar" runat="server">
@@ -253,8 +253,9 @@ header.page-header {
     <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 स्टार">1 star</label>--%>
 </div>
      <asp:Label ID="countstar"  style="float:left;padding: 10px 0px 0px 15px;margin-top: 3%;" runat="server" >0/7</asp:Label>  
-</div><br /><br />
-        <div class="form-group box-show">
+</div><%--<br /><br />--%>
+       
+    <div class="form-group box-show" style="height:415px;">
          <%-- Hidden fields start--%>
     <asp:HiddenField ID="hdnsid"  runat="server" />
             <asp:HiddenField ID="hdnulb" runat="server" />  
@@ -265,15 +266,15 @@ header.page-header {
             
             <asp:TextBox ID="txtfullname" runat="server" placeholder="Your Full Name...." name="FullName" required></asp:TextBox>   
               
-    </div>
-    <div class="form-group box-show">
+   
+    <div class="form-group">
         	<label for="MobNo" id="user_number" >Mobile No:</label> <p id="err_phone" class="text-danger"></p>
         <asp:TextBox ID="txtmobile" runat="server" placeholder="Your Mobile No...." name="MobileNo" MaxLength="10"></asp:TextBox>
     </div>
     <div class="form-group" style="float: left">
 	<label for="complaint" id="user_feedback" >Feedback Box: </label>
-        <asp:TextBox ID="txtfeedback" runat="server" placeholder="Post your feedback here......" style="height: 150px;width:385px" TextMode="MultiLine" ></asp:TextBox>
- </div>
+        <asp:TextBox ID="txtfeedback" runat="server" placeholder="Post your feedback here......" style="height: 150px;width:375px" TextMode="MultiLine" ></asp:TextBox>
+ </div> </div>
 
        <asp:Button ID="btnsubmit" runat="server" class="btn" Text="submit" style="height: 40px;width: 80px;" OnClick="btnsubmit_Click" />
    
