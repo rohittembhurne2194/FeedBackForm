@@ -272,7 +272,7 @@ header.page-header {
         <asp:TextBox ID="txtmobile" runat="server" placeholder="Your Mobile No...." name="MobileNo" MaxLength="10"></asp:TextBox>
     </div>
     <div class="form-group" style="float: left">
-	<label for="complaint" id="user_feedback" >Feedback Box: </label>
+	<label for="complaint" id="user_feedback" >Feedback </label>
         <asp:TextBox ID="txtfeedback" runat="server" placeholder="Post your feedback here......" style="height: 150px;width:375px" TextMode="MultiLine" ></asp:TextBox>
  </div> </div>
 
@@ -406,7 +406,7 @@ header.page-header {
             $("#que_four").text("4. Please provide your valuable rating for the toilet:");
             $("#user_name").text("Full Name * :");
             $("#user_number").text("Mobile No : ");
-            $("#user_feedback").text("Feedback Box :");
+            $("#user_feedback").text("Feedback :");
             $("#btnsubmit").attr("value", "Submit");
 
             $("#txtfullname").attr("placeholder", "Your Full Name....").val("").focus().blur();
@@ -425,7 +425,7 @@ header.page-header {
             $("#que_four").text("4. सदर शौचालयास आपणाद्वारे मानांकन देण्यात यावे:");
             $("#user_name").text("पूर्ण नाव * :");
             $("#user_number").text("मोबाइल क्रमांक : ");
-            $("#user_feedback").text("अभिप्राय बॉक्स :");
+            $("#user_feedback").text("अभिप्राय :");
             $("#btnsubmit").attr("value", "सबमिट");
 
 
@@ -447,7 +447,7 @@ header.page-header {
             $("#que_four").text("4. कृपया शौचालय के लिए अपनी बहुमूल्य रेटिंग प्रदान करें:");
             $("#user_name").text("पूरा नाम * :");
             $("#user_number").text("मोबाइल नंबर : ");
-            $("#user_feedback").text("फीडबैक बॉक्स :");
+            $("#user_feedback").text("फीडबैक :");
             $("#btnsubmit").attr("value", "सबमिट");
 
 
