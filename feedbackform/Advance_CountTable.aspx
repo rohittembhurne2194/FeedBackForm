@@ -50,7 +50,7 @@
         <div class="table-responsive">
 
             <asp:GridView ID="Advance_Grdcounttable" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered table-hover" 
-              AllowPaging="true" OnPageIndexChanging="Advance_Grdcounttable_PageIndexChanging" pagesize="50"  >
+              AllowPaging="true" OnPageIndexChanging="Advance_Grdcounttable_PageIndexChanging" pagesize="100"  >
                     <Columns>
                                       <asp:TemplateField HeaderText = "Sr.No" ItemStyle-Width="100">
         <ItemTemplate>
