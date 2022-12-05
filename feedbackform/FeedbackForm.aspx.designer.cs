@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace feedbackform {
-    
-    
-    public partial class FeedbackForm {
-        
+namespace feedbackform
+{
+
+
+    public partial class FeedbackForm
+    {
+
         /// <summary>
         /// rdbtn1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdbtn1;
-        
+
         /// <summary>
         /// rdbtn2 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdbtn2;
-        
+
         /// <summary>
         /// rdbtn3 control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdbtn3;
-        
+
         /// <summary>
         /// rdbtn4 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdbtn4;
-        
+
         /// <summary>
         /// rdbtn5 control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdbtn5;
-        
+
         /// <summary>
         /// rdbtn6 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdbtn6;
-        
+
         /// <summary>
         /// Rdbstar7 control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar7;
-        
+
         /// <summary>
         /// Rdbstar6 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar6;
-        
+
         /// <summary>
         /// Rdbstar5 control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar5;
-        
+
         /// <summary>
         /// Rdbstar4 control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar4;
-        
+
         /// <summary>
         /// Rdbstar3 control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar3;
-        
+
         /// <summary>
         /// Rdbstar2 control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar2;
-        
+
         /// <summary>
         /// Rdbstar1 control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton Rdbstar1;
-        
+
         /// <summary>
         /// countstar control.
         /// </summary>
@@ -137,7 +139,133 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label countstar;
-        
+
+        /// <summary>
+        /// RadioButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+
+        /// <summary>
+        /// RadioButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
+
+        /// <summary>
+        /// RadioButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton3;
+
+        /// <summary>
+        /// RadioButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton4;
+
+        /// <summary>
+        /// RadioButton5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton5;
+
+        /// <summary>
+        /// RadioButton6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton6;
+
+        /// <summary>
+        /// RadioButton7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton7;
+
+        /// <summary>
+        /// RadioButton8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton8;
+
+        /// <summary>
+        /// RadioButton9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton9;
+
+        /// <summary>
+        /// RadioButton10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton10;
+
+        /// <summary>
+        /// RadioButton11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton11;
+
+        /// <summary>
+        /// RadioButton12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton12;
+
+        /// <summary>
+        /// RadioButton13 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton13;
+
+        /// <summary>
+        /// RadioButton14 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton14;
+
         /// <summary>
         /// hdnsid control.
         /// </summary>
@@ -146,7 +274,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnsid;
-        
+
         /// <summary>
         /// hdnulb control.
         /// </summary>
@@ -155,7 +283,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnulb;
-        
+
         /// <summary>
         /// hdnLangId control.
         /// </summary>
@@ -164,7 +292,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnLangId;
-        
+
         /// <summary>
         /// hdnAppId control.
         /// </summary>
@@ -173,7 +301,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnAppId;
-        
+
         /// <summary>
         /// txtfullname control.
         /// </summary>
@@ -182,7 +310,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtfullname;
-        
+
         /// <summary>
         /// txtmobile control.
         /// </summary>
@@ -191,7 +319,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtmobile;
-        
+
         /// <summary>
         /// txtfeedback control.
         /// </summary>
@@ -200,7 +328,7 @@ namespace feedbackform {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtfeedback;
-        
+
         /// <summary>
         /// btnsubmit control.
         /// </summary>

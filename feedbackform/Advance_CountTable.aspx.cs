@@ -11,22 +11,25 @@ namespace feedbackform
 {
     public partial class Advance_CountTable : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=202.65.157.253;Initial Catalog=LIVEAdvanceDevSwachhBharatMain;User ID=appynitty;Password=BigV$Telecom");
+        SqlConnection con = new SqlConnection("Data Source=202.65.157.253;Initial Catalog=LIVEAdvanceDevSwachhBharatMain;User ID=appynitty;Password=BigV$Telecom;Connection Timeout=180");
 
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            if (!this.IsPostBack)
-            {
+        
+            protected void Page_Load(object sender, EventArgs e)
+                    {
+                        if (!this.IsPostBack)
+                        {
 
-                bindData();
+                            bindData();
 
-            }
-        }
+                        }
+                    }
 
         public void bindData()
         {
 
             SqlDataAdapter da = new SqlDataAdapter("HouseEntryCount", con);
+            // set the CommandTimeout
+            da.SelectCommand.CommandTimeout = 120;  // seconds
             DataSet ds = new DataSet();
             try
             {
@@ -36,7 +39,10 @@ namespace feedbackform
             }
             catch (Exception e)
             {
-                Response.Write(e.Message);
+                //Response.Write(e.Message);
+                da.Fill(ds, "HouseEntryCount");
+                Advance_Grdcounttable.DataSource = ds;
+                Advance_Grdcounttable.DataBind();
             }
             finally
             {

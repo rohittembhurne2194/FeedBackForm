@@ -254,7 +254,42 @@ header.page-header {
 </div>
      <asp:Label ID="countstar"  style="float:left;padding: 10px 0px 0px 15px;margin-top: 3%;" runat="server" >0/7</asp:Label>  
 </div><%--<br /><br />--%>
-       
+     <div class="form-group box-show">
+<p style="color: black" id="que_five">5.All toilet seats and urinals clean and usable at all times?</p>
+ <asp:RadioButton ID="RadioButton1" GroupName="radio3" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton2" GroupName="radio3" runat="server" /><label class="radio_ques_no">No</label>
+</div>
+    <div class="form-group box-show">
+<p style="color: black" id="que_six"> 6. Wash basin(s)/hand wash facility clean and usable at all times?</p>
+ <asp:RadioButton ID="RadioButton3" GroupName="radio4" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton4" GroupName="radio4" runat="server" /><label class="radio_ques_no">No</label>
+</div>
+    <div class="form-group box-show">
+<p style="color: black" id="que_seven"> 7. Adequate ventilation facility ?</p>
+ <asp:RadioButton ID="RadioButton5" GroupName="radio5" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton6" GroupName="radio5" runat="server" /><label class="radio_ques_no">No</label>
+</div>
+    <div class="form-group box-show">
+<p style="color: black" id="que_eight"> 8. Functional bolting arrangements on all doors of all toilet seats ?</p>
+ <asp:RadioButton ID="RadioButton7" GroupName="radio6" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton8" GroupName="radio6" runat="server" /><label class="radio_ques_no">No</label>
+</div>
+    <div class="form-group box-show">
+<p style="color: black" id="que_nine"> 9. Toilet floor is dry and clean at all times?</p>
+ <asp:RadioButton ID="RadioButton9" GroupName="radio7" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton10" GroupName="radio7" runat="server" /><label class="radio_ques_no">No</label>
+</div>
+    <div class="form-group box-show">
+<p style="color: black" id="que_ten"> 10. Available soap / operational soap dispenser?</p>
+ <asp:RadioButton ID="RadioButton11" GroupName="radio8" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton12" GroupName="radio8" runat="server" /><label class="radio_ques_no">No</label>
+</div>
+    <div class="form-group box-show">
+<p style="color: black" id="que_eleven"> 11. Ladies toilets have vending machine/ mechanism for sanitary napkins?</p>
+ <asp:RadioButton ID="RadioButton13" GroupName="radio9" runat="server" /><label class="radio_ques_yes">Yes</label>
+    <asp:RadioButton ID="RadioButton14" GroupName="radio9" runat="server" /><label class="radio_ques_no">No</label>
+
+</div>
     <div class="form-group box-show" style="height:415px;">
          <%-- Hidden fields start--%>
     <asp:HiddenField ID="hdnsid"  runat="server" />
@@ -404,6 +439,13 @@ header.page-header {
             $("#que_two").text("2. Is the toilet cleaned regularly?");
             $("#que_three").text("3. Is there sufficient water available in the toilet?");
             $("#que_four").text("4. Please provide your valuable rating for the toilet:");
+            $("#que_five").text("5. All toilet seats and urinals clean and usable at all times:");
+            $("#que_six").text("6. Wash basin(s)/hand wash facility clean and usable at all times:");
+            $("#que_seven").text("7. Adequate ventilation facility:");
+            $("#que_eight").text("8. Functional bolting arrangements on all doors of all toilet seats:");
+            $("#que_nine").text("9. Toilet floor is dry and clean at all times:");
+            $("#que_ten").text("10. Available soap / operational soap dispenser:");
+            $("#que_eleven").text("11. Ladies toilets have vending machine/ mechanism for sanitary napkins:");
             $("#user_name").text("Full Name * :");
             $("#user_number").text("Mobile No : ");
             $("#user_feedback").text("Feedback :");
@@ -457,4 +499,4 @@ header.page-header {
         }
     });
 
-    </script>
+</script>
