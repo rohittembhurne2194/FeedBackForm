@@ -118,7 +118,78 @@ namespace feedbackform
             {
                 rating = "1";
             }
-            SqlCommand cmd = new SqlCommand("insert into Sauchalay_feedback values('" +hdnulb.Value + "','" + hdnsid.Value + "','" + hdnAppId.Value  + "','" + txtfullname.Text + "','" + txtmobile.Text + "','" + que1 + "','" + que2 + "','" + que3 + "','" + rating + "',  '" + txtfeedback.Text + "','" + DateTime.Now + "')", con);
+
+            //Added By Rohit
+            string que5 = "";
+            if (RadioButton1.Checked == true)
+            {
+                que5 = "Yes";
+            }
+            if (RadioButton2.Checked == true)
+            {
+                que5 = "No";
+            }
+
+            string que6 = "";
+            if (RadioButton3.Checked == true)
+            {
+                que6 = "Yes";
+            }
+            if (RadioButton4.Checked == true)
+            {
+                que6 = "No";
+            }
+
+            string que7 = "";
+            if (RadioButton5.Checked == true)
+            {
+                que7 = "Yes";
+            }
+            if (RadioButton6.Checked == true)
+            {
+                que7 = "No";
+            }
+
+            string que8 = "";
+            if (RadioButton7.Checked == true)
+            {
+                que8 = "Yes";
+            }
+            if (RadioButton8.Checked == true)
+            {
+                que8 = "No";
+            }
+
+            string que9 = "";
+            if (RadioButton9.Checked == true)
+            {
+                que9 = "Yes";
+            }
+            if (RadioButton10.Checked == true)
+            {
+                que9 = "No";
+            }
+
+            string que10 = "";
+            if (RadioButton11.Checked == true)
+            {
+                que10 = "Yes";
+            }
+            if (RadioButton12.Checked == true)
+            {
+                que10 = "No";
+            }
+
+            string que11 = "";
+            if (RadioButton13.Checked == true)
+            {
+                que11 = "Yes";
+            }
+            if (RadioButton14.Checked == true)
+            {
+                que11 = "No";
+            }
+            SqlCommand cmd = new SqlCommand("insert into Sauchalay_feedback values('" +hdnulb.Value + "','" + hdnsid.Value + "','" + hdnAppId.Value  + "','" + txtfullname.Text + "','" + txtmobile.Text + "','" + que1 + "','" + que2 + "','" + que3 + "','" + rating + "',  '" + txtfeedback.Text + "','" + DateTime.Now + "','" + que5 + "','" + que6 + "','" + que7 + "','" + que8 + "','" + que9 + "','" + que10 + "','" + que11 + "')", con);
 
             cmd.CommandType = CommandType.Text;
 
